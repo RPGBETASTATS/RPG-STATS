@@ -1,1 +1,1 @@
-# RPG-STAT
+# --allow-unrelated-histories
