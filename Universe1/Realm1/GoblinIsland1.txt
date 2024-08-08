@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ----------------------------------------------------Goblin NPC-------------------------------------------------
 
 local _C = {
@@ -97,3 +98,105 @@ local _C = {
 }
 
 return _C
+||||||| b93e1f4
+=======
+----------------------------------------------------Goblin NPC-------------------------------------------------
+
+local _C = {
+
+    -- Main
+    MobName = ("Goblin King"),
+    LevelRequiredToKill = 0,
+    -- Award
+    AwardedXP = 2,
+    AwardedGold = 5,
+    -- Color
+    Color = Color3.new(0.333333, 0.666667, 0), --chose by your wheel
+    -- Humanoid
+    MobHealth = 13,
+    MobWalkSpeed = 14,
+    -- Damage & Respawning
+    MobDamage = 10,
+    RespawnTime = 1,
+    -- Animations & Sounds
+    AttackAnimIds = {
+    "rbxassetid://186934658",
+    },
+    -- Chase
+    FollowDistance = 25,
+    FollowDelay = 0.1, 
+    -- Optional: Weapon Drop
+    DropsWeapon1 = true,
+    WeaponName1 = "Goblin Sword",
+    WeaponDirectory1 = game.ServerStorage.GameItems.Realm1,
+    WeaponChance1 = 1, -- 1 in (?)
+    --
+    DropsWeapon2 = false,
+    WeaponName2 = "Sword2",
+    WeaponDirectory2 = game.ServerStorage.GameItems,
+    WeaponChance2 = 1, -- 1 in (?)
+    --
+    DropsWeapon3 = false,
+    WeaponName3 = "Sword3",
+    WeaponDirectory3 = game.ServerStorage.GameItems,
+    WeaponChance3 = 1, -- 1 in (?)
+    -- Name Rank
+    RankName = "Enemy",
+    -- Optional: Teleport On Kill
+    DoesMobTeleportAfterKill = false,
+    TeleportLocation = CFrame.new(0,0,0),
+
+}
+
+return _C
+
+----------------------------------------------------Goblin Boss------------------------------------------------
+
+local _C = {
+
+    -- Main
+    MobName = ("Goblin King"),
+    LevelRequiredToKill = 0,
+    -- Award
+    AwardedXP = 2,
+    AwardedGold = 5,
+    -- Color
+    Color = Color3.new(0.333333, 0.666667, 0), --chose by your wheel
+    -- Humanoid
+    MobHealth = 13,
+    MobWalkSpeed = 14,
+    -- Damage & Respawning
+    MobDamage = 10,
+    RespawnTime = 1,
+    -- Animations & Sounds
+    AttackAnimIds = {
+    "rbxassetid://186934658",
+    },
+    -- Chase
+    FollowDistance = 25,
+    FollowDelay = 0.1, 
+    -- Optional: Weapon Drop
+    DropsWeapon1 = true,
+    WeaponName1 = "Goblin Sword",
+    WeaponDirectory1 = game.ServerStorage.GameItems.Realm1,
+    WeaponChance1 = 1, -- 1 in (?)
+    --
+    DropsWeapon2 = false,
+    WeaponName2 = "Sword2",
+    WeaponDirectory2 = game.ServerStorage.GameItems,
+    WeaponChance2 = 1, -- 1 in (?)
+    --
+    DropsWeapon3 = false,
+    WeaponName3 = "Sword3",
+    WeaponDirectory3 = game.ServerStorage.GameItems,
+    WeaponChance3 = 1, -- 1 in (?)
+    -- Name Rank
+    RankName = "Enemy",
+    -- Optional: Teleport On Kill
+    DoesMobTeleportAfterKill = false,
+    TeleportLocation = CFrame.new(0,0,0),
+
+}
+
+return _C
+>>>>>>> c48044cd207ad0f08fabfc43701232a39f91da42
